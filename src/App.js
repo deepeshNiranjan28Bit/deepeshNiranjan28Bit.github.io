@@ -6,11 +6,13 @@ import "./styles/main.css";
 function App() {
   return (
     <div className="bigAppDiv">
+      <div className="supportDivApp">Deepesh</div>
       <div className="smallAppDiv">
         <Top />
         <Mid />
         <Bottom />
       </div>
+      <div className="supportDivApp">Icon</div>
     </div>
   );
 }

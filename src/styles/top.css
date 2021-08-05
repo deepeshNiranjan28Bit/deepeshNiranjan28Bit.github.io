@@ -1,4 +1,11 @@
 .topDiv {
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+.topInnerDiv {
+  width: 50vw;
+  font-size: larger;
+  height: 75vh;
+  padding-top: 15vh;
 }

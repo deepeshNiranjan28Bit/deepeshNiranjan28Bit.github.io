@@ -3,16 +3,14 @@ body {
   height: 100%;
   min-height: 100%;
 }
-.bigAppDiv {
-  /* position: absolute; */
-  width: 100vw;
-  height: 100vh;
-  background: url(../pics/coal-truck\ Ivan\ Diaz.jpg) no-repeat center center
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+body {
+  background-image: url(../pics/coal-truck\ Ivan\ Diaz.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+}
+.bigAppDiv {
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -20,4 +18,7 @@ body {
 .smallAppDiv {
   z-index: 5;
   width: 75vw;
+}
+.supportDivApp {
+  width: 6vw;
 }

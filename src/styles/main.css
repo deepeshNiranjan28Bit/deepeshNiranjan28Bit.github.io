@@ -14,10 +14,11 @@ body {
   z-index: 1;
   display: flex;
   justify-content: center;
+  color: aliceblue;
 }
 .smallAppDiv {
   z-index: 5;
-  width: 75vw;
+  width: 70vw;
 }
 .supportDivApp {
   width: 6vw;

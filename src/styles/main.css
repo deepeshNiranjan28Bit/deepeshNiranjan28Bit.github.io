@@ -19,6 +19,5 @@ body {
 }
 .smallAppDiv {
   z-index: 5;
-  width: 85vw;
-  color: aliceblue;
+  width: 75vw;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/top.css";
+import { Icon } from "rsuite";
 
 function top() {
   return (
@@ -24,6 +25,12 @@ function top() {
           distribution of letters, as opposed to using 'Content here, content
           here'.
         </p>
+
+        <Icon
+          icon="arrow-circle-down"
+          size="4x"
+          style={{ color: "rgb(241, 241, 241)" }}
+        />
       </div>
     </div>
   );
